@@ -1,0 +1,19 @@
+Guía Rápida de Uso del Sistema de Bitácoras
+1. Estructura de Matrículas (Credenciales de Acceso)
+El sistema identifica automáticamente el rol de cada usuario según el prefijo numérico de su matrícula al iniciar sesión:
+
+Estudiantes: Sus matrículas están formadas por el prefijo 1224 seguido de su número específico (ej. 1224161007).
+
+Docentes: Sus matrículas comienzan con el prefijo 2672.
+
+Personal Técnico / Administrativo: Sus matrículas comienzan con el prefijo 1109.
+
+2. Acceso al Panel Administrativo
+Para ingresar a las funciones de gestión avanzada y control general dentro del sistema, se requiere utilizar la contraseña de administración establecida: GMCPADMIN.
+
+3. ¿Cómo utilizar las Bitácoras?
+Registro de Docentes: Al iniciar sesión como docente, se accede al formulario principal para registrar la fecha, hora de entrada y salida, grupo, materia y laboratorio en el que se imparte la clase, además de evaluar el estado de las instalaciones y el funcionamiento del internet.
+
+Alta de Alumnos: Desde el módulo del docente, se pueden registrar nuevos estudiantes utilizando su información y asignándoles su respectiva matrícula bajo el estándar del sistema.
+
+Control y Edición: El sistema unifica la información en la base de datos MySQL, permitiendo visualizar, editar y dar seguimiento integral a las prácticas desde el panel administrativo o técnico.

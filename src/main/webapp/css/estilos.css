@@ -1,0 +1,199 @@
+:root {
+    --primary-color: #005442;
+    --secondary-color: #0b2f27;
+    --background-color: #f4f7f6;
+    --card-background: #ffffff;
+    --text-color: #333333;
+    --border-color: #d1d5db;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/*
+   1. CONTENEDOR DEL LOGIN  */
+.login-container {
+    background: var(--card-background);
+    width: 100%;
+    max-width: 480px; /* Incrementado de 420px a 500px */
+    padding: 180px;    /* Incrementado de 40px a 50px para dar más espacio interno */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================================================
+   2. CONTENEDOR GENERAL DE BITÁCORAS
+   ========================================================================== */
+.bitacora-body {
+    display: block;
+    min-height: auto;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: var(--card-background);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.header-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+/* ==========================================================================
+   3. ELEMENTOS DE FORMULARIO
+   ========================================================================== */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--secondary-color);
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 84, 66, 0.15);
+}
+
+.form-group input[readonly] {
+    background-color: #e9ecef;
+    color: #495057;
+    cursor: not-allowed;
+}
+
+.btn-block {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-block:hover {
+    background-color: var(--secondary-color);
+}
+
+/* ==========================================================================
+   4. ESTILOS PROPIOS DEL PANEL DE ADMINISTRACIÓN (Nuevos)
+   ========================================================================== */
+.panel-container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.admin-title {
+    color: var(--primary-color);
+    margin: 0;
+    font-size: 24px;
+}
+
+.badge-admin {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tabla-registros {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.tabla-registros th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-registros td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+    color: var(--text-color);
+}
+
+.tabla-registros tr:nth-child(even) {
+    background-color: #f7fbf9;
+}
+
+.tabla-registros tr:hover {
+    background-color: #edf5f1;
+}
+
+.status-asistio {
+    color: #2e7d32;
+    font-weight: bold;
+    background-color: #e8f5e9;
+    padding: 3px 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.btn-cerrar {
+    background-color: #c62828;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-cerrar:hover {
+    background-color: #8e1c1c;
+}
