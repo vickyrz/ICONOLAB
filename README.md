@@ -6,7 +6,7 @@
 **Desarrolladores:**
 - Rodríguez Arzate Alejandra Victoria 
 - López Vargas Elienay 
-- Martinez Miranda Laura Itzel
+- Martinez Miranda Itzel Laura
 
 ---
 
