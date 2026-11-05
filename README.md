@@ -4,8 +4,9 @@
 **Asignatura:** Proyecto de Ingeniería de Software / Base de Datos  
 **Grupo:** 801  
 **Desarrolladores:**
-- Rodríguez Arzate Alejandra Victoria (Vicky)
-- López Vargas Elienay (Ely)
+- Rodríguez Arzate Alejandra Victoria 
+- López Vargas Elienay 
+- Martinez Miranda Laura Itzel
 
 ---
 
