@@ -39,16 +39,31 @@
 
 ## 4. Guía de Uso y Flujo de Navegación
 
-### Flujo Principal del Sistema
-1. **Acceso / Login:** El usuario selecciona su rol e ingresa sus credenciales de acceso.
-2. **Dashboard Principal:** Redirección según el rol autenticado:
-    - *Vista Alumno:* Registro rápido de entrada a práctica.
-    - *Vista Docente:* Apertura de sesión de laboratorio y control de grupo.
-    - *Vista Administrador:* Panel general con acceso a catálogos e historial completo.
-3. **Registro de Bitácora:** Formulario interactivo con validaciones para registrar fecha, equipo asignado y materia.
-4. **Cierre de Sesión / Salida:** Confirmación de término de práctica y actualización del estado del equipo.
+El sistema opera mediante un flujo autenticado basado en roles, guiando al usuario desde su ingreso hasta la gestión de bitácoras y catálogos institucionales.
 
-*(Nota: Las capturas de pantalla del flujo se integrarán en la carpeta `docs/screenshots/`)*
+### 1. Acceso al Sistema (Login)
+La pantalla de autenticación solicita usuario y contraseña para redirigir al usuario según su perfil autorizado.
+![Pantalla de Login](docs/screenshots/login.png)
+
+### 2. Panel Administrativo
+Vista central para administradores donde se controlan los registros generales del sistema.
+![Panel Administrativo](docs/screenshots/panel_administrativo.png)
+
+### 3. Módulos de Bitácoras
+* **Bitácora de Alumnos:** Registro de accesos y equipos asignados.
+  ![Bitácora Alumnos](docs/screenshots/bitacora_alumnos.png)
+* **Bitácora de Docentes:** Control de sesiones de práctica e impartición de clases.
+  ![Bitácora Docentes](docs/screenshots/bitacora_docentes.png)
+* **Bitácora de Técnicos:** Seguimiento de soporte y control del laboratorio.
+  ![Bitácora Técnicos](docs/screenshots/bitacora_tecnicos.png)
+
+### 4. Gestión de Registros y Usuarios
+* **Registro de Alumnos / Bitácora Docente:** Formularios detallados de alta.
+  ![Registro Alumnos Bitácora Docentes](docs/screenshots/registro_alumnos_bitacora_docentes.png)
+* **Panel de Gestión de Usuarios:** Control de altas y permisos.
+  ![Registro Alumnos Panel Administrativo](docs/screenshots/registro_alumnos_panel_administrativo.png)
+* **Listado de Usuarios Registrados:** Vista general de usuarios activos en la plataforma.
+  ![Usuarios Registrados](docs/screenshots/usuarios_registrados.png)
 
 ---
 
