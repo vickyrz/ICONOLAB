@@ -59,9 +59,13 @@ Vista central para administradores donde se controlan los registros generales de
 
 ### 4. Gestión de Registros y Usuarios
 * **Registro de Alumnos / Bitácora Docente:** Formularios detallados de alta.
+
   ![Registro Docentes](docs/screenshots/reg_docentes.png)
+
 * **Panel de Gestión de Usuarios:** Control de altas y permisos.
+
   ![Registro Admin](docs/screenshots/reg_admin.png)
+
 * **Listado de Usuarios Registrados:** Vista general de usuarios activos en la plataforma.
   ![Usuarios Registrados](docs/screenshots/usuarios_registrados.png)
 
