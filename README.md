@@ -33,7 +33,7 @@
 - **Gestión de Dependencias:** Apache Maven
 - **Base de Datos:** MySQL (ejecutado en entorno XAMPP)
 - **Frontend:** HTML5, CSS3, JavaScript
-- **IDE:** IntelliJ IDEA.
+- **IDE:** IntelliJ IDEA
 
 ---
 
@@ -59,9 +59,9 @@ Vista central para administradores donde se controlan los registros generales de
 
 ### 4. Gestión de Registros y Usuarios
 * **Registro de Alumnos / Bitácora Docente:** Formularios detallados de alta.
-  ![Registro Alumnos Bitácora Docentes](docs/screenshots/registro_alumnos_bitacora_docentes.png)
+  ![Registro Docentes](docs/screenshots/reg_docentes.png)
 * **Panel de Gestión de Usuarios:** Control de altas y permisos.
-  ![Registro Alumnos Panel Administrativo](docs/screenshots/registro_alumnos_panel_administrativo.png)
+  ![Registro Admin](docs/screenshots/reg_admin.png)
 * **Listado de Usuarios Registrados:** Vista general de usuarios activos en la plataforma.
   ![Usuarios Registrados](docs/screenshots/usuarios_registrados.png)
 
