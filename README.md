@@ -33,7 +33,7 @@
 - **Gestión de Dependencias:** Apache Maven
 - **Base de Datos:** MySQL (ejecutado en entorno XAMPP)
 - **Frontend:** HTML5, CSS3, JavaScript
-- **IDE:** IntelliJ IDEA
+- **IDE:** IntelliJ IDEA.
 
 ---
 
