@@ -81,7 +81,11 @@ El sistema utiliza una base de datos relacional orientada a la gestión escolar.
 - `bitacora_docentes`: Guarda el registro de sesiones impartidas por los profesores.
 - `laboratorios` / `equipos`: Controla el inventario físico de salas y equipos de cómputo.
 
-*(Nota: El diagrama Entidad-Relación completo se encuentra disponible en `docs/modelo_relacional.png`)*
+### Modelo Entidad-Relación
+
+El diagrama completo de la base de datos relacional de ICONOLAB se estructura de la siguiente manera:
+
+![Diagrama Entidad-Relación de ICONOLAB](docs/screenshots/Diagrama.png)
 
 ---
 
@@ -96,6 +100,7 @@ El sistema utiliza una base de datos relacional orientada a la gestión escolar.
 ### Pasos para Ejecución Local
 
 1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/vickyrz/ICONOLAB.git](https://github.com/vickyrz/ICONOLAB.git)
-   cd iconolab
+ ```bash
+git clone [https://github.com/vickyrz/ICONOLAB.git](https://github.com/vickyrz/ICONOLAB.git)
+cd iconolab
+```
